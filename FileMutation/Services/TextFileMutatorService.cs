@@ -7,7 +7,9 @@ namespace FileMutation.Services;
 /// </summary>
 public sealed class TextFileMutatorService : ITextFileMutatorService
 {
-    /// <inheritdoc />
+    /// <summary>
+    /// Appends a UTC timestamp and a cryptographically random hexadecimal token to the supplied text content.
+    /// </summary>
     public string Mutate(string content)
     {
         var randomToken = Convert.ToHexString(RandomNumberGenerator.GetBytes(8));

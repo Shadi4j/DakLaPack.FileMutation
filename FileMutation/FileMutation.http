@@ -1,0 +1,13 @@
+@FileMutation_HostAddress = http://localhost:5253
+
+POST {{FileMutation_HostAddress}}/api/files/mutate
+Content-Type: multipart/form-data; boundary=FileMutationBoundary
+
+--FileMutationBoundary
+Content-Disposition: form-data; name="file"; filename="sample.txt"
+Content-Type: text/plain
+
+Hello from FileMutation.http
+--FileMutationBoundary--
+
+###

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FileMutation/FileMutation.csproj" />
+  <Project Path="FileMutation.Tests/FileMutation.Tests.csproj" />
+</Solution>

@@ -1,0 +1,51 @@
+# Build output
+**/bin/
+**/obj/
+artifacts/
+publish/
+*.nupkg
+*.snupkg
+
+# Visual Studio and user-specific settings
+.vs/
+*.user
+*.userprefs
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+
+# Test output
+TestResults/
+*.trx
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+*.opencover.xml
+*.lcov
+*.runsettings
+*.dmp
+*.log
+logs/
+BenchmarkDotNet.Artifacts/
+TestResults/
+
+# IDE settings
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# Local environment and secret configuration
+.local/
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+**/appsettings.*.Local.json
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
